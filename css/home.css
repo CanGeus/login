@@ -1,0 +1,38 @@
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button{
+    padding:  15px 20px 15px 20px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: rgb(68, 6, 119);
+    color: white;
+}
+
+button:hover{
+    animation: button 10s infinite;
+}
+
+@keyframes button{
+    20%{
+        background-color: teal;
+    }
+    40%{
+        background-color: royalblue;
+    }
+    60%{
+        background-color: skyblue;
+    }
+    80%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: rgb(68, 6, 119);
+    }
+}
